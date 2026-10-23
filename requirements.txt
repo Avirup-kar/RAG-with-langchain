@@ -1,0 +1,7 @@
+langchain
+langchain-core
+langchain-community
+python-dotenv
+chromadb
+pypdf
+pymupdf
