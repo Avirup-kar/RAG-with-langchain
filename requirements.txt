@@ -10,3 +10,5 @@ faiss-cpu
 chromadb
 numpy
 langchain_text_splitters
+langchain-groq
+python-dotenv
