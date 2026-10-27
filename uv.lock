@@ -2673,6 +2673,7 @@ dependencies = [
     { name = "pypdf" },
     { name = "python-dotenv" },
     { name = "sentence-transformers" },
+    { name = "typesense" },
 ]
 
 [package.metadata]
@@ -2691,6 +2692,7 @@ requires-dist = [
     { name = "pypdf", specifier = ">=6.21.2" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
     { name = "sentence-transformers", specifier = ">=6.2.0" },
+    { name = "typesense", specifier = ">=2.1.1" },
 ]
 
 [[package]]
@@ -3361,6 +3363,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/03/51/d33db42cc72ffd8c30777547b42d01f0cbf9d95a770457698d0174b3ed71/typer-0.27.3.tar.gz", hash = "sha256:d0396f770a560ab1b0a8504e13b5f254b728cedb05c61cf0359e944e50ce8901", size = 205303, upload-time = "2026-10-06T17:24:16.61Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/07/ea/2e31b67051e91a133189e9c000c222502ddc6969856416de0d095de4c0b0/typer-0.27.3-py3-none-any.whl", hash = "sha256:e50022f28b82a86313e54501317a1db64bf8f8d036ff8cfe5ca7e47675454aff", size = 123312, upload-time = "2026-10-06T17:24:15.054Z" },
+]
+
+[[package]]
+name = "typesense"
+version = "2.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5c/25/5e582ea98ffe6df71e9db8c4288a9bc9179efbace1d49a371e716ffd93f1/typesense-2.1.1.tar.gz", hash = "sha256:5d1fded865ecf9a9e564a4e6b8aa9229c34287e958dc3b16eec408376d142a42", size = 97341, upload-time = "2026-10-23T09:23:19.964Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/38/22/d848100d45976e612865251f89607d941199003d24a622b8afc5b9503b88/typesense-2.1.1-py3-none-any.whl", hash = "sha256:e37f799be67cc3a948ac756826e0c2451882a61d37d4da6235a4a80c2436afd6", size = 160564, upload-time = "2026-10-23T09:23:18.461Z" },
 ]
 
 [[package]]

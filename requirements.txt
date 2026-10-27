@@ -12,3 +12,4 @@ numpy
 langchain_text_splitters
 langchain-groq
 python-dotenv
+typesense
